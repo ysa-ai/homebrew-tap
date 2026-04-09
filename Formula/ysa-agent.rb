@@ -6,7 +6,7 @@ class YsaAgent < Formula
   on_macos do
     on_arm do
       url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.5/ysa-agent-darwin-arm64"
-      sha256 "f6b9bf81f94740540f9c720beaedb795987e59f55acce2dc9da089b557799b39"
+      sha256 "0451896c99dc270143b34cae7acf62f48b2b279930a1403635051495990a0e1f"
     end
     on_intel do
       url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.5/ysa-agent-darwin-x64"
