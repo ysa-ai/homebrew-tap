@@ -1,16 +1,16 @@
 class YsaAgent < Formula
   desc "Agent daemon for ysa.run — runs issues in sandboxed containers"
   homepage "https://ysa.run"
-  version "0.1.16"
+  version "0.1.18"
 
   on_macos do
     on_arm do
-      url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.16/ysa-agent-darwin-arm64"
-      sha256 "f842a855456aaee54a1302d9a0ff91f48e5b11ee159d0ae4887669511a58b906"
+      url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.18/ysa-agent-darwin-arm64"
+      sha256 "19ad985c5fef49202afaaa69a0cb0c2c0bcf1312de34c30eeed9b0296bc2518d"
     end
     on_intel do
-      url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.16/ysa-agent-darwin-x64"
-      sha256 "671f75766a0b048f1f26ffbc235ef196918f3b9ea959b379e061d8f11427dbbe"
+      url "https://github.com/ysa-ai/agent/releases/download/agent-v0.1.18/ysa-agent-darwin-x64"
+      sha256 "6499d4fa0884b5a202f8945c06932debbce3b7973eaa928f35c272fd66495b1a"
     end
   end
 
